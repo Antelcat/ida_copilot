@@ -19,7 +19,7 @@
 ### 先决条件
 
 - 带有Hex-Rays Decompiler的IDA Pro。
-- 配置了IDA Pro的Python环境。
+- IDAPython环境，Python >= 3.9。
 - 一个OpenAI API密钥，它应该以`sk-`开头。如果您还没有，可以在[这里](https://platform.openai.com/account/api-keys)创建一个。
 
 ### 安装
