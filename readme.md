@@ -19,7 +19,7 @@
 ### Prerequisites
 
 - IDA Pro with Hex-Rays Decompiler
-- Python environment configured with IDA Pro
+- Python >= 3.9 environment configured with IDAPython
 - An OpenAI API key, which should start with `sk-`. You can create one [here](https://platform.openai.com/account/api-keys) if you don't have one already.
 
 ### Installation
