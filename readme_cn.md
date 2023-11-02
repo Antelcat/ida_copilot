@@ -2,7 +2,7 @@
 
 ### [English](readme.md) | 中文
 
-👋 欢迎使用IDA Pro的ChatGPT插件，在这里，OpenAI的GPT模型的前沿能力与IDA Pro的强大反汇编和调试功能相结合。这个插件利用LangChain和最新的基于Agent的方法自动化分析IDA中的反编译代码，使逆向工程变得前所未有地简单和互动。
+👋 欢迎使用IDA Pro的ChatGPT插件，它将ChatGPT模型的前沿能力与IDA Pro的强大反汇编功能相结合。利用最新基于Agent的方法自动化分析IDA反编译的代码，使逆向工程变得前所未有地简单。
 
 ![预览](https://github.com/Antelcat/ida_copilot/blob/main/img/Preview.gif?raw=true)
 
@@ -18,8 +18,8 @@
 
 ### 先决条件
 
-- 带有Hex-Rays Decompiler的IDA Pro
-- 配置了IDA Pro的Python环境
+- 带有Hex-Rays Decompiler的IDA Pro。
+- 配置了IDA Pro的Python环境。
 - 一个OpenAI API密钥，它应该以`sk-`开头。如果您还没有，可以在[这里](https://platform.openai.com/account/api-keys)创建一个。
 
 ### 安装
@@ -33,18 +33,18 @@
 
 - 启动IDA Pro并加载一个二进制文件。
 - 导航到您希望分析的函数。
-- 点击`编辑 > Copilot`或使用快捷键`Ctrl+Shift+P`运行ChatGPT分析。
+- 点击`Edit > Copilot`或使用快捷键`Ctrl+Shift+P`运行ChatGPT分析。
 - 等待分析完成并显示结果。
 
 ## 工作原理
 
 这个插件的核心是基于一个创新的"Agent"框架，ChatGPT在此系统中充当**大脑**。将ChatGPT想象为一个精明的合作伙伴，它能够辨别出IDA环境中接下来需要做什么。这个由AI驱动的代理根据当前的上下文及其对代码的理解，不断地做出下一步行动的决策。
 
-通过插件提供的一系列Python API，ChatGPT与IDA Pro无缝交互。它利用这些接口来分析函数，重命名变量，生成漏洞利用代码，甚至就像一个人类专家一样与您进行交互式会话。这种持续的分析、决策和互动循环，使这个插件不仅仅是一个工具，而是您逆向工程挑战中的智能伴侣。
+通过插件提供的一系列Python API，ChatGPT与IDA Pro无缝交互。它利用这些接口来分析函数，重命名变量，生成漏洞利用代码，甚至就像一个人类专家一样与您进行交互式会话。这种持续的分析、决策和互动循环，使这个插件不仅仅是一个工具，更是您逆向工程挑战中的智能副驾驶。
 
 ## 开发
 
-这个插件正在积极开发中，定期添加新功能。如果您想贡献或有建议，请随时在GitHub上开issue或pr。
+这个插件正在积极开发中，定期添加新功能。如果您有建议或想贡献代码，请随时在GitHub上开issue或PR。
 
 ### 开发中的功能
 - ✍️ **局部变量重命名**：AI将自动分析函数并根据其功能重命名局部变量。
@@ -61,4 +61,4 @@
 - 该项目利用了LangChain库。
 - 感谢IDA Pro社区的持续支持和反馈。
 
-我们希望这个插件能够帮助您利用AI的力量将您的逆向工程任务提升到一个新的水平！
+我们希望这个插件能够帮助您利用AI的力量将您的逆向工程提升到一个新的水平！
