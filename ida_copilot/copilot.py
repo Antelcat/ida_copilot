@@ -34,14 +34,13 @@ class Copilot:
             agent_type=AgentType.OPENAI_MULTI_FUNCTIONS,
             llm=ChatOpenAI(temperature=temperature, model=model),
             tools=tools,
-            callback_manager=BaseCallbackManager(handlers=[
-                # CopilotPanelCallbackManager(),
-                FileCallbackHandler("G:\\output.log")]),
+            # callback_manager=BaseCallbackManager(handlers=[
+            #     CopilotPanelCallbackManager()]),
             verbose=True,
         )
 
         prompt = prompts.default_prompt_zh.format(
-            binary_description=f'A function in .sys driver, name: {func_name}, address 0x{ea:x}'
+            binary_description=f'name: {func_name}, address 0x{ea:x}'
             # pseudocode=pseudocode
         )
 
