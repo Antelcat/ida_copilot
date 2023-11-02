@@ -4,7 +4,7 @@
 
 👋 Welcome to the ChatGPT plugin for IDA Pro, where the cutting-edge capabilities of OpenAI's GPT models meet the powerful disassembly and debugging features of IDA Pro. This plugin leverages LangChain and the latest Agent-based approach to automate the analysis of decompiled code in IDA, making reverse engineering easier and more interactive than ever.
 
-![Preview](https://raw.githubusercontent.com/Antelcat/ida_copilot/main/img/Preview.gif)
+![Preview](https://github.com/Antelcat/ida_copilot/blob/main/img/Preview.gif?raw=true)
 
 ## Features
 

@@ -4,6 +4,8 @@
 
 👋 欢迎使用IDA Pro的ChatGPT插件，在这里，OpenAI的GPT模型的前沿能力与IDA Pro的强大反汇编和调试功能相结合。这个插件利用LangChain和最新的基于Agent的方法自动化分析IDA中的反编译代码，使逆向工程变得前所未有地简单和互动。
 
+![预览](https://github.com/Antelcat/ida_copilot/blob/main/img/Preview.gif?raw=true)
+
 ## 功能特点
 
 - 🤖 **自动代码分析**：只需导航到一个函数，启动插件，Copilot就会自动分析。
